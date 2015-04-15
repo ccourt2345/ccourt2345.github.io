@@ -1,4 +1,9 @@
-body {
+h1 {
 	color: green;
+}
+body {
 	background-color: pink;
+}
+p {
+	color: green;
 }
