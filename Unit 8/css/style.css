@@ -1,0 +1,257 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.left {
+	background-color: #000;
+	width: 98%;
+	float: left;
+	height: 30%;
+	padding: 0 1%;
+}
+
+.nav {
+	display: inline;
+	width: 100%;
+	background-color: #000;
+	float: right;
+	height: 25%;
+	text-align: center;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	background-color: #000;
+	padding: 0 0 0 1%;
+	width: auto;
+}
+
+nav a:hover {
+	color:  #E66993;
+}
+
+.spacer {
+	height: 5px;
+	clear:both;
+}
+
+p img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.spacer1 {
+	height: 5%;
+	clear:both;
+}
+
+.content1 {
+	float: left;
+}
+
+.photo1 img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.photo2 img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.photo3 img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+
+.spacer1 {
+	height: 5%;
+	clear:both;
+}
+
+.content1 {
+	width: 90%;
+}
+.photo1 {
+	width: 27%;
+	float: left;
+	padding: 2%;
+}
+
+.blog1 {
+	width: 60%;
+	float: right;
+	padding: 2%;
+}
+
+h4:hover {
+color:  #E66993;
+}
+
+.content2 {
+	clear:both;
+	width: 90%;
+}
+.photo2 {
+	width: 27%;
+	float: left;
+	padding: 2%;
+}
+
+.blog2 {
+	width: 60%;
+	float: right;
+	padding: 2%;
+}
+.content3 {
+	clear: both;
+	width: 90%;
+}
+.photo3 {
+	width: 27%;
+	float: left;
+	padding: 2%;
+}
+
+.blog3 {
+	width: 60%;
+	float: right;
+	padding: 2%;
+}
+
+
+.about {
+	padding: 1.5%;
+}
+
+.get {
+	padding: 1.5%;
+}
+
+.social {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+footer {
+	clear:both;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	height: 35%;
+	padding-top: 1.5%;
+}
+
+@media screen only and (max-width: 480px) {
+
+.nav {
+	float: none;
+	width: auto;
+
+}
+.left {
+	float: none;
+	width: auto;
+}
+.photo1 {
+	float: none;
+	width: auto;
+}
+
+.content1 {
+	float: none;
+	width: auto;
+}
+
+.photo1 img {
+	width: 60%;
+	display: none;
+	margin: 0 auto;
+}
+.photo2 img {
+	width: 60%;
+	display: none;
+	margin: 0 auto;
+}
+.photo3 img {
+	width: 60%;
+	display: none;
+	margin: 0 auto;
+}
+
+.spacer1 {
+	height: 5%;
+	clear:both;
+}
+
+.content1 {
+	width: 100%;
+}
+.photo1 {
+	width: 100%;
+	float: none;
+	padding: 2%;
+}
+
+.blog1 {
+	width: auto;
+	float: none;
+	padding: 2%;
+}
+
+h4:hover {
+color:  #E66993;
+}
+
+.content2 {
+	clear:both;
+	width: 90%;
+}
+.photo2 {
+	width: 27%;
+	float: none;
+	padding: 2%;
+}
+
+.blog2 {
+	width: 60%;
+	float: none;
+	padding: 2%;
+}
+.content3 {
+	clear: both;
+	width: 90%;
+}
+.photo3 {
+	width: 27%;
+	float: none;
+	padding: 2%;
+}
+
+.blog3 {
+	width: 60%;
+	float: none;
+	padding: 2%;
+}
+}
+
+
+
+
